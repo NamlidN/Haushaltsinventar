@@ -1,0 +1,30 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ gap: 7rem;
+ height: 10vh;
+    color: rgb(186, 186, 186);
+width: 100%;
+}
+header nav  h1{
+    transition: 1s;
+    font-size: 40pt;
+    width: max-content;
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+}
+header{
+    height: 10vh;
+    background-color: rgb(52, 52, 52);
+}
+a{
+    text-decoration: none;
+    color: rgb(186, 186, 186);
+}
+nav  h1:hover{
+    font-size: 55pt;
+    color: rgb(188, 24, 24);
+    transition: 1s;
+}

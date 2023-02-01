@@ -1,0 +1,54 @@
+.jonge{
+    border-radius: 1rem;
+    border: solid 1px red;
+    width: 100%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+}
+body{
+    background-color: rgb(70, 70, 70);
+  }
+.adD{
+    padding: 1rem;
+    border-radius: 1rem;
+    border: solid 1px red;
+    width: 35rem;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ gap: 1rem;
+ margin:  10rem auto;
+ background-color: rgb(84, 84, 84);
+ color: aliceblue;
+}
+.adD input{
+    width: 15rem;
+    height: 2rem;
+    background-color: rgb(28, 28, 28);
+    color: aliceblue;
+}
+.adD select{
+    width: 10rem;
+    height: 2rem;
+    background-color: gray;
+    color: aliceblue;
+    font-size: 20pt;
+    border-radius: .5rem;
+    text-align: center;
+}
+.adD button{
+    margin-top: 50rem;
+    width: 10rem;
+    height: 3rem;
+    background-color: gray;
+    color: aliceblue;
+    font-size: 20pt;
+    border-radius: 1.5rem;
+    margin-top: -2rem;
+}

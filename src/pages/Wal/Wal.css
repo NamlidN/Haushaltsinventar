@@ -1,0 +1,58 @@
+.BOX {
+    POSITION: RELATIVE;
+    WIDTH: 100%;
+    HEIGHT: 9rem;
+    LINE-HEIGHT: 35PX;
+    TEXT-ALIGN: CENTER;
+    TEXT-TRANSFORM: UPPERCASE;
+    BACKGROUND: #111111;
+    COLOR: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    font-size: 35pt;
+    margin-top: 10rem;
+  }
+  .BOX::BEFORE,
+  .BOX::AFTER {
+    CONTENT: "";
+    Z-INDEX: -1;
+    POSITION: ABSOLUTE;
+    WIDTH: CALC(100% + 6PX);
+    HEIGHT: CALC(100% + 8PX);
+    TOP: -3PX;
+    LEFT: -3PX;
+    BACKGROUND: LINEAR-GRADIENT(45DEG,
+        #FC0090,
+        #0000FF,
+        #00FF00,
+        #FF0000,
+        #FFF000,
+        #FC0090,
+        #0000FF,
+        #00FF00,
+        #FF0000,
+        #FFF000);
+    BACKGROUND-SIZE: 300%;
+    ANIMATION: BORDER 20S LINEAR INFINITE;
+  }
+  
+  .BOX::AFTER {
+    FILTER: BLUR(30PX);
+  }
+  
+  @keyframes BORDER {
+  
+    0%,
+    100% {
+      BACKGROUND-POSITION: 0 0;
+    }
+  
+    50% {
+      BACKGROUND-POSITION: 300%;
+    }
+} 
+html{
+background-color: none;
+}

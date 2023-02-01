@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main .okeoke {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: wrap;
+    background-color: rgb(80, 80, 80);
+    height: 100vh;
+}
+
+.main {
+    background-color: rgb(42, 41, 41);
+
+}
+
+.WWIMG {
+    width: 20rem;
+    height: 100%;
+    border-radius: 0 1rem 1rem 0;
+    object-fit: cover;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.WWIMG:hover {
+    border-radius: 0 1rem 1rem 0;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+    box-shadow: 23px 33px 33px rgb(5, 5, 5);
+    border-radius: 2.5rem;
+    width: 39.58rem;
+    height: 10rem;
+    transition: 1s;
+    background-color: lightgray;
+    filter: grayscale(1);
+    margin: 1rem;
+}
+
+.card:hover {
+    box-shadow: 23px 33px 33px rgb(189, 189, 189);
+    background-color: rgb(123, 123, 123);
+    transition: 1s;
+    width: 45rem;
+    height: 20rem;
+    font-size: 25pt;
+    border-radius: 1rem;
+    color: rgb(136, 29, 29);
+    filter: grayscale(0);
+}
+
+.main .okeoke .card button {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-self: flex-start;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+
+    border-radius: 2.5rem 2.5rem 2.5rem 0;
+    background-color: black;
+    font-size: 15pt;
+    width: 5rem;
+    height: 2rem;
+    transition: 1s;
+}
+
+.main .okeoke .card button:hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    align-self: flex-start;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(222, 44, 44);
+
+    border-radius: 0rem 2rem 2rem 0;
+    background-color: black;
+    font-size: 25pt;
+    width: 12rem;
+    height: 5rem;
+    transition: 1s;
+}
+
+button:hover {
+
+    color: rgb(222, 44, 44);
+    transition: -2s;
+    border-radius: 1rem 1rem 1rem 0;
+}
+
+.besch {
+    margin: 0 50% 0 5%;
+    text-align: left;
+    width: 50%;
+}
+
+.kT {
+    text-align: center;
+    color: rgb(116, 116, 116);
+    font-size: 45pt;
+    transition: 1s;
+    background-color: rgb(88, 88, 88);
+}
+
+.kT:hover {
+    color: rgb(211, 29, 29);
+    width: 100%;
+    transition: 1s;
+}
+
+.GTG {
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vw;
+}

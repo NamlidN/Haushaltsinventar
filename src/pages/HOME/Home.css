@@ -1,0 +1,140 @@
+main {
+    height: 90vh;
+    width: 100vw;
+    background-color: rgb(115, 115, 115);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+main section { 
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 5rem;
+}
+
+.a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(206, 206, 206);
+    transition: -2s;
+    border-radius: 2.5rem;
+}
+
+.a:hover {
+    color: rgb(222, 44, 44);
+    transition: -2s;
+    border-radius: 1rem;
+}
+
+main article {
+    height: 20vh;
+}
+
+main article h1 {
+    color: rgb(172, 172, 172);
+    font-size: 45pt;
+    border-bottom: solid tomato;
+    padding:  0 0 1rem 0;
+    transition: 1s;
+}
+
+main article h1:hover {
+    color: rgb(158, 27, 27);
+    transition: 1s;
+}
+
+main section .a div span {
+    display: flex;
+    border-radius: 2.5rem;
+    justify-content: center;
+}
+
+main section .a div span {
+    border-radius: 2.5rem;
+}
+
+main section .a div span:hover {
+    border-radius: 1rem;
+}
+
+main section .a div span h1 {
+    margin: 2rem auto;
+    font-size: 55pt;
+    text-align: center;
+}
+
+main section .a div {
+    background-color: rgb(128, 127, 127);
+    height: 24rem;
+    width: 18rem;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 2.0rem;
+    transition: 1.2s;
+}
+
+main section .a div:hover {
+    transition: .6s;
+    height: 27rem;
+    width: 35rem;
+    border-radius: 1rem;
+}
+
+.one {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1618088494676-ef512dbfc8a6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2346&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    transition: 2s;
+}
+
+.tow {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1550963295-019d8a8a61c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    filter: grayscale(1);
+    transition: 2s;
+}
+
+.thr {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://images.unsplash.com/photo-1614350048512-98ef79f6f829?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: grayscale(1);
+    transition: 2s;
+}
+
+.thr:hover {
+    filter: grayscale(0);
+    transition: 2s;
+}
+
+.tow:hover {
+    filter: grayscale(0);
+    transition: 2s;
+}
+
+.one:hover {
+    filter: grayscale(0);
+    transition: 2s;
+}
+
